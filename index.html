@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧱</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOSTEL CRAFT • Your Hostel. Your World. | MSRIT Freshers Block</title>
+    <meta name="description" content="An interactive Minecraft-inspired digital hostel experience for MSRIT Freshers Block by Team Asteroid Destroyer." />
+  </head>
+  <body>
+    <!-- FIXED 3D WEBGL VIEWPORT -->
+    <div id="canvas-container">
+      <canvas id="webgl-canvas"></canvas>
+    </div>
+
+    <!-- HOSTEL CRAFT APP ROOT -->
+    <div id="app-root">
+      <div id="global-header-mount"></div>
+      <div id="view-mount" class="hostel-app-viewport"></div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
